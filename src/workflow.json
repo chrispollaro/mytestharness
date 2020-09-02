@@ -1,0 +1,25 @@
+{
+  "workflowSteps": [
+    {
+      "stepId": 1,
+      "components": [
+        { "id": "name", "type": "textInput", "label": "What is your name?" },
+        {
+          "id": "color",
+          "type": "textInput",
+          "label": "What is your favorite color?"
+        }
+      ]
+    },
+    {
+      "stepId": 2,
+      "components": [
+        {
+          "id": "number",
+          "type": "textInput",
+          "label": "What is your favorite number?"
+        }
+      ]
+    }
+  ]
+}
